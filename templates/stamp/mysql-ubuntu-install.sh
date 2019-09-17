@@ -120,7 +120,7 @@ install_mysql_server()
         # Allow sql 5.7 on ubuntu 14 and below.
         package=${PACKAGE_NAME}
 
-        debFileName=mysql-apt-config_0.8.13-1_all
+        debFileName=mysql-apt-config_0.8.0-1_all
         wget -q http://dev.mysql.com/get/$debFileName.deb -O $debFileName.deb
         echo mysql-apt-config mysql-apt-config/select-product select Ok | debconf-set-selections
         dpkg -i $debFileName.deb
