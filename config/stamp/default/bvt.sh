@@ -46,9 +46,9 @@ EDXAPP_EMAIL_TECH_SUPPORT="${PLATFORM_EMAIL}"
 EDXAPP_EMAIL_UNIVERSITY="${PLATFORM_EMAIL}"
 
 # config/versions.yml
-CONFIGURATION_REPO=https://github.com/Microsoft/edx-configuration.git
+CONFIGURATION_REPO=https://github.com/startoxa/edx-configuration/tree/oxa/master.fic
 CONFIGURATION_VERSION=oxa/master.fic
-PLATFORM_REPO=https://github.com/Microsoft/edx-platform.git
+PLATFORM_REPO=https://github.com/startoxa/edx-platform/tree/oxa/master.fic
 PLATFORM_VERSION=oxa/master.fic
 THEME_REPO=https://github.com/Microsoft/edx-theme.git
 THEME_VERSION=oxa/master.fic
