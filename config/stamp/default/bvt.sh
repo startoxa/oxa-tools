@@ -17,9 +17,9 @@ ENVIRONMENT=bvt
 
 # the site certificate files (.crt & .key) have to be named after the BASE_URL value
 BASE_URL=cloudswyft.com
-LMS_URL=startoxa-lms.$BASE_URL
-CMS_URL=startoxa-cms.$BASE_URL
-PREVIEW_URL=startpreview.$BASE_URL
+LMS_URL=skilllms.$BASE_URL
+CMS_URL=skillcms.$BASE_URL
+PREVIEW_URL=skillpreview.$BASE_URL
 
 # deployment configuration
 # URL-building will be replaced by the use of LMS_URL | CMS_URL (above)
